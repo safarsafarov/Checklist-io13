@@ -12,7 +12,6 @@
   <component name="ChangeListManager">
     <list default="true" id="7053fd72-9942-40c8-b8c9-e2078bf4d35c" name="Default Changelist" comment="Checklist-ios13">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Checklist-ios13/ContentView.swift" beforeDir="false" afterPath="$PROJECT_DIR$/Checklist-ios13/ContentView.swift" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,6 +33,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="restartRequiresConfirmation" value="false" />
   </component>
   <component name="RunManager">
     <configuration name="Checklist-ios13" type="AppleRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Checklist-ios13" TARGET_NAME="Checklist-ios13" CONFIG_NAME="Debug" SCHEME_NAME="Checklist-ios13" IS_LOCATION_SIMULATION_ALLOWED="true" APPLICATION_LANGUAGE="IDELaunchSchemeLanguageUseSystemLanguage" APPLICATION_REGION="" RUN_TARGET_PROJECT_NAME="Checklist-ios13" RUN_TARGET_NAME="Checklist-ios13" MAKE_ACTIVE="TRUE" SHOULD_DEBUG_EXTENSIONS="false">
@@ -55,7 +55,8 @@
       <option name="presentableId" value="Default" />
       <updated>1598630474423</updated>
       <workItem from="1598630475836" duration="201000" />
-      <workItem from="1598630707590" duration="1316000" />
+      <workItem from="1598630707590" duration="2232000" />
+      <workItem from="1598657374040" duration="615000" />
     </task>
     <task id="LOCAL-00001" summary="Checklist-ios13">
       <created>1598630828101</created>
@@ -64,7 +65,14 @@
       <option name="project" value="LOCAL" />
       <updated>1598630828101</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Checklist-ios13">
+      <created>1598648920836</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1598648920836</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -87,10 +95,26 @@
     <option name="LAST_COMMIT_MESSAGE" value="Checklist-ios13" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="880" y="425" key="Vcs.Push.Dialog.v2" timestamp="1598630831903">
+    <state width="2518" height="378" key="GridCell.Tab.0.bottom" timestamp="1598657336331">
       <screen x="0" y="23" width="2560" height="1325" />
     </state>
-    <state x="880" y="425" key="Vcs.Push.Dialog.v2/0.23.2560.1325/-1440.844.1440.877@0.23.2560.1325" timestamp="1598630831903" />
+    <state width="2518" height="378" key="GridCell.Tab.0.bottom/0.23.2560.1325/-1440.844.1440.877@0.23.2560.1325" timestamp="1598657336331" />
+    <state width="2518" height="378" key="GridCell.Tab.0.center" timestamp="1598657336330">
+      <screen x="0" y="23" width="2560" height="1325" />
+    </state>
+    <state width="2518" height="378" key="GridCell.Tab.0.center/0.23.2560.1325/-1440.844.1440.877@0.23.2560.1325" timestamp="1598657336330" />
+    <state width="2518" height="378" key="GridCell.Tab.0.left" timestamp="1598657336330">
+      <screen x="0" y="23" width="2560" height="1325" />
+    </state>
+    <state width="2518" height="378" key="GridCell.Tab.0.left/0.23.2560.1325/-1440.844.1440.877@0.23.2560.1325" timestamp="1598657336330" />
+    <state width="2518" height="378" key="GridCell.Tab.0.right" timestamp="1598657336331">
+      <screen x="0" y="23" width="2560" height="1325" />
+    </state>
+    <state width="2518" height="378" key="GridCell.Tab.0.right/0.23.2560.1325/-1440.844.1440.877@0.23.2560.1325" timestamp="1598657336331" />
+    <state x="880" y="425" key="Vcs.Push.Dialog.v2" timestamp="1598648925506">
+      <screen x="0" y="23" width="2560" height="1325" />
+    </state>
+    <state x="880" y="425" key="Vcs.Push.Dialog.v2/0.23.2560.1325/-1440.844.1440.877@0.23.2560.1325" timestamp="1598648925506" />
     <state x="1096" y="606" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1598630531034">
       <screen x="0" y="23" width="2560" height="1325" />
     </state>
