@@ -10,10 +10,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7053fd72-9942-40c8-b8c9-e2078bf4d35c" name="Default Changelist" comment="Checklist-ios13">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Checklist-ios13/ContentView.swift" beforeDir="false" afterPath="$PROJECT_DIR$/Checklist-ios13/ContentView.swift" afterDir="false" />
-    </list>
+    <list default="true" id="7053fd72-9942-40c8-b8c9-e2078bf4d35c" name="Default Changelist" comment="Checklist-ios13" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -58,7 +55,7 @@
       <workItem from="1598630475836" duration="201000" />
       <workItem from="1598630707590" duration="2232000" />
       <workItem from="1598657374040" duration="4967000" />
-      <workItem from="1598717362819" duration="1514000" />
+      <workItem from="1598717362819" duration="2135000" />
     </task>
     <task id="LOCAL-00001" summary="Checklist-ios13">
       <created>1598630828101</created>
@@ -109,7 +106,14 @@
       <option name="project" value="LOCAL" />
       <updated>1598725273476</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Checklist-ios13">
+      <created>1598725949659</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1598725949659</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -148,10 +152,10 @@
       <screen x="0" y="23" width="2560" height="1325" />
     </state>
     <state width="2070" height="335" key="GridCell.Tab.0.right/0.23.2560.1325/-1440.844.1440.877@0.23.2560.1325" timestamp="1598725928412" />
-    <state x="880" y="425" key="Vcs.Push.Dialog.v2" timestamp="1598725275691">
+    <state x="880" y="425" key="Vcs.Push.Dialog.v2" timestamp="1598725952963">
       <screen x="0" y="23" width="2560" height="1325" />
     </state>
-    <state x="880" y="425" key="Vcs.Push.Dialog.v2/0.23.2560.1325/-1440.844.1440.877@0.23.2560.1325" timestamp="1598725275691" />
+    <state x="880" y="425" key="Vcs.Push.Dialog.v2/0.23.2560.1325/-1440.844.1440.877@0.23.2560.1325" timestamp="1598725952963" />
     <state x="1096" y="606" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1598714200358">
       <screen x="0" y="23" width="2560" height="1325" />
     </state>
