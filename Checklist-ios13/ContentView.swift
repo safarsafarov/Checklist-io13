@@ -20,6 +20,7 @@ struct ContentView: View {
                   Text(item)
               }
               .onDelete(perform:  deleteListItem)
+              .onMove(perform: moveListItem)
           }
             .navigationBarItems(trailing: EditButton())
             .navigationBarTitle("Checklist")
@@ -28,6 +29,7 @@ struct ContentView: View {
             }
         }
     }
+
     // Methods
     // =======
     func printChecklistContents() {
