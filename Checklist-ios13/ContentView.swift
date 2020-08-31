@@ -3,23 +3,29 @@ import SwiftUI
 struct ContentView: View {
     // Array
     @State var checklistItems = [
-        "Take vocal lessons",
-        "Record hit single",
-        "Learn every martial art",
-        "Design costume",
-        "Design crime-fighting vehicle", "Come up with superhero name", "Befriend space raccoon",
-        "Save the world",
-        "Star in blockbuster movie",
+        ChecklistItem(name: "Walk the dog", isChecked: <#T##Bool##Swift.Bool#>),
+        ChecklistItem(name: "Brush my teeth", isChecked: <#T##Bool##Swift.Bool#>),
+        ChecklistItem(name: "Learn iOS development", isChecked: true),
+        ChecklistItem(name: "Soccer practice", isChecked: <#T##Bool##Swift.Bool#>),
+        ChecklistItem(name: "Eat ice cream", isChecked: true),
     ]
 
     // View
     var body: some View {
         NavigationView {
           List {
-              ForEach(checklistItems, id: \.self) { item in
-                  Text(item)
+              ForEach(checklistItems, id: \.self.name) { checklistItems in
+                  HStack {
+                      Text(checklistItems.name)
+                      Spacer()
+                      if checklistItems.isChecked {
+                          Text("✅")
+                      } else {
+                        Text("🔲")
+                      }
+                  }
               }
-              .onDelete(perform:  deleteListItem)
+              .onDelete(perform: deleteListItem)
               .onMove(perform: moveListItem)
           }
             .navigationBarItems(trailing: EditButton())
