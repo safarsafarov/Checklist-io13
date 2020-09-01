@@ -18,7 +18,7 @@ struct ChecklistView: View {
                         Spacer()
                         Text(checklistItem.isChecked ? "✅" : "🔲")
                     }
-                            .background(Color.black) // This makes the entire row clickable
+                            .background(Color.white) // This makes the entire row clickable
                             .onTapGesture {
                                 if let matchingIndex =
                                 self.checklist.items.firstIndex(where: { $0.id == checklistItem.id }) {
