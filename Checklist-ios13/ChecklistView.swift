@@ -39,7 +39,7 @@ struct ChecklistView: View {
                             },
                             trailing: EditButton()
                     )
-                    .navigationBarTitle("Checklist")
+                    .navigationBarTitle("Checklist", displayMode: .inline)
                     .onAppear() {
                         self.checklist.printChecklistContents()
                     }
