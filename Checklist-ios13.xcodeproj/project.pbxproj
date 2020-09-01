@@ -31,6 +31,7 @@
 		649DD888F933E76B29C3EAF0 /* Checklist.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Checklist.swift; sourceTree = "<group>"; };
 		649DD8EC3BD3409444787118 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		649DD9B4855B1F3037639166 /* EditChecklistItemView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditChecklistItemView.swift; sourceTree = "<group>"; };
+		649DDAE793D1E8B2F0346E63 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		649DDE166EAD0201045386CE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		649DDFC9E3A9D6625F7904FC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		649DDFCDAC040163CA7F96CA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -78,6 +79,7 @@
 				649DD9B4855B1F3037639166 /* EditChecklistItemView.swift */,
 				649DD04073A41136BE39B195 /* NewChecklistItemView.swift */,
 				649DD174022DD90B641E80B1 /* RowView.swift */,
+				649DDAE793D1E8B2F0346E63 /* README.md */,
 			);
 			path = "Checklist-ios13";
 			sourceTree = "<group>";
