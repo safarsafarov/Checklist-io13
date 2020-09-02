@@ -29,11 +29,7 @@ struct ChecklistView: View {
                     NewChecklistItemView(checklist: self.checklist) }
     }
 
-
-
-
 }
-
 // Preview
 // =======
 struct ContentView_Previews: PreviewProvider {
