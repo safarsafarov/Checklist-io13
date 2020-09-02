@@ -30,6 +30,8 @@ struct ChecklistView: View {
     }
 
 }
+
+// TODO: Saveable data
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
         ChecklistView()
