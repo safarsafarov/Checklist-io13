@@ -13,6 +13,8 @@
     <list default="true" id="7053fd72-9942-40c8-b8c9-e2078bf4d35c" name="Default Changelist" comment="Checklist-ios13">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Checklist-ios13/ChecklistView.swift" beforeDir="false" afterPath="$PROJECT_DIR$/Checklist-ios13/ChecklistView.swift" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Checklist-ios13/EditChecklistItemView.swift" beforeDir="false" afterPath="$PROJECT_DIR$/Checklist-ios13/EditChecklistItemView.swift" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Checklist-ios13/RowView.swift" beforeDir="false" afterPath="$PROJECT_DIR$/Checklist-ios13/RowView.swift" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,6 +68,7 @@
       <workItem from="1598841694358" duration="12866000" />
       <workItem from="1598919197096" duration="6690000" />
       <workItem from="1599025922513" duration="1662000" />
+      <workItem from="1599085805795" duration="1273000" />
     </task>
     <task id="LOCAL-00001" summary="Checklist-ios13">
       <created>1598630828101</created>
@@ -216,6 +219,10 @@
     <option name="LAST_COMMIT_MESSAGE" value="Checklist-ios13" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="1026" y="562" key="#Notifications" timestamp="1599085844713">
+      <screen x="0" y="23" width="2560" height="1417" />
+    </state>
+    <state x="1026" y="562" key="#Notifications/0.23.2560.1417/-1440.844.1440.877@0.23.2560.1417" timestamp="1599085844713" />
     <state x="1135" y="318" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1598856968181">
       <screen x="0" y="23" width="1920" height="1085" />
     </state>
@@ -281,5 +288,15 @@
     </state>
     <state x="709" y="296" width="670" height="554" key="search.everywhere.popup/0.23.1920.1085@0.23.1920.1085" timestamp="1598848051589" />
     <state x="945" y="356" width="670" height="676" key="search.everywhere.popup/0.23.2560.1325/-1440.844.1440.877@0.23.2560.1325" timestamp="1598710895352" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/Checklist-ios13/Checklist.swift</url>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
