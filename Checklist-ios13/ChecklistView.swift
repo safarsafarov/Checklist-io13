@@ -13,7 +13,7 @@ struct ChecklistView: View {
         NavigationView {
             List {
                 ForEach(checklist.items) { checklistItem in
-                    RowView(checklistItem: checklistItem)
+                    RowView(checklistItem: self.$checklist.items[index])
                 }
                         .onDelete(perform: checklist.deleteListItem)
                         .onMove(perform: checklist.moveListItem) }
