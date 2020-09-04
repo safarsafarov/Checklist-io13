@@ -32,7 +32,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="OBJC.PRESERVED_TARGET_SELECTION" value="" />
+    <property name="OBJC.PRESERVED_TARGET_SELECTION" value="Checklist-ios13" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -66,7 +66,7 @@
       <workItem from="1598919197096" duration="6690000" />
       <workItem from="1599025922513" duration="1662000" />
       <workItem from="1599085805795" duration="2910000" />
-      <workItem from="1599185267158" duration="1763000" />
+      <workItem from="1599185267158" duration="3870000" />
     </task>
     <task id="LOCAL-00001" summary="Checklist-ios13">
       <created>1598630828101</created>
@@ -201,7 +201,14 @@
       <option name="project" value="LOCAL" />
       <updated>1599123272376</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="Checklist-ios13">
+      <created>1599211476164</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1599211476164</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -278,12 +285,12 @@
     <state x="898" y="203" key="SettingsEditor/0.23.1920.1085@0.23.1920.1085" timestamp="1598852053369" />
     <state x="1197" y="243" key="SettingsEditor/0.23.2560.1325/-1440.844.1440.877@0.23.2560.1325" timestamp="1598860534374" />
     <state x="1197" y="257" key="SettingsEditor/0.23.2560.1417/-1440.844.1440.877@0.23.2560.1417" timestamp="1598901272625" />
-    <state x="880" y="453" key="Vcs.Push.Dialog.v2" timestamp="1599123274458">
+    <state x="880" y="453" key="Vcs.Push.Dialog.v2" timestamp="1599211478277">
       <screen x="0" y="23" width="2560" height="1417" />
     </state>
     <state x="660" y="352" key="Vcs.Push.Dialog.v2/0.23.1920.1085@0.23.1920.1085" timestamp="1598844826467" />
     <state x="880" y="425" key="Vcs.Push.Dialog.v2/0.23.2560.1325/-1440.844.1440.877@0.23.2560.1325" timestamp="1598920815739" />
-    <state x="880" y="453" key="Vcs.Push.Dialog.v2/0.23.2560.1417/-1440.844.1440.877@0.23.2560.1417" timestamp="1599123274458" />
+    <state x="880" y="453" key="Vcs.Push.Dialog.v2/0.23.2560.1417/-1440.844.1440.877@0.23.2560.1417" timestamp="1599211478277" />
     <state x="1096" y="606" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1598714200358">
       <screen x="0" y="23" width="2560" height="1325" />
     </state>
