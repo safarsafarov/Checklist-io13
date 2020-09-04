@@ -1,9 +1,5 @@
-//
-// Created by Safar Safarov on 2020/8/31.
-// Copyright (c) 2020 safarslife.dev. All rights reserved.
-//
-
 import Foundation
+import SwiftUI
 
 
 
@@ -22,6 +18,12 @@ class Checklist: ObservableObject {
 
     // Methods
     // =======
+
+    init() {
+        print("Documents directory is: \(documentsDirectory())")
+        print("Data file path is: \(dataFilePath())")
+    }
+
     func printChecklistContents() {
         for item in items {
             print(item)
@@ -37,5 +39,16 @@ class Checklist: ObservableObject {
     func moveListItem(whichElement: IndexSet, destination: Int) {
         items.move(fromOffsets: whichElement, toOffset: destination)
         printChecklistContents()
+    }
+
+    func documentsDirectory() -> URL {
+        let paths = FileManager.default.urls(for: .documentationDirectory,
+                                             in: .userDomainMask)
+        return paths[0]
+    }
+
+    func dataFilePath() -> URL {
+        return
+        documentsDirectory().appendingPathComponent("Checklist.plist")
     }
 }
