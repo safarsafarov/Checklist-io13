@@ -22,6 +22,7 @@ class Checklist: ObservableObject {
     init() {
         print("Documents directory is: \(documentsDirectory())")
         print("Data file path is: \(dataFilePath())")
+        loadListItems()
     }
 
     func printChecklistContents() {
@@ -66,6 +67,24 @@ class Checklist: ObservableObject {
         } catch {
             // 6
             print("Error encoding item array: \(error.localizedDescription)")
+        }
+    }
+
+    func loadListItems() {
+        // 1
+        let path = dataFilePath()
+        // 2
+        if let data = try? Data(contentsOf: path) {
+            // 3
+            let decoder = PropertyListDecoder()
+            do {
+                // 4
+                items = try decoder.decode([ChecklistItem].self,
+                                            from: data)
+                // 5
+            } catch {
+                print("Error decoding item array: \(error.localizedDescription)")
+            }
         }
     }
 }

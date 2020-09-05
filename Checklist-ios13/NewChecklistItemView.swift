@@ -1,8 +1,3 @@
-//
-// Created by Safar Safarov on 2020/8/31.
-// Copyright (c) 2020 safarslife.dev. All rights reserved.
-//
-
 import Foundation
 import SwiftUI
 
@@ -22,6 +17,7 @@ struct NewChecklistItemView: View {
                     var newChecklistItem = ChecklistItem(name: self.newItemName)
                     self.checklist.items.append(newChecklistItem)
                     self.checklist.printChecklistContents()
+                    self.checklist.saveListItems()
                     self.presentationMode.wrappedValue.dismiss()
                 }) {
                     HStack {
