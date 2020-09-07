@@ -1,6 +1,8 @@
 # Checklist-iOS13 app SwiftUI
 In this project I have learned:
 
+
+
 ✅ NavigationView and List views
 
 ✅ Arrays
